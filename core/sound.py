@@ -74,6 +74,7 @@ def play_echo(direction: Vec, distance: int) -> None:
     else:
         k.y += int(distance) * 1.5
     logging.info(f"{k.x}, {k.y}")
+    echo.set_position((k.x, 0, k.y))
     echo.play()
     time.sleep(abs(distance) / 5)
     play_echo_2(direction, distance)

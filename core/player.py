@@ -165,6 +165,8 @@ class Player:
             if (
                 nearest_wall.x >= len(maze.matrix[0]) - 1
                 or nearest_wall.y >= len(maze.matrix) - 1
+                or nearest_wall.x < 0
+                or nearest_wall.y < 0
             ):
                 break
             nearest_wall += direction
