@@ -659,6 +659,7 @@ def title_menu_action(choice: str) -> Union[int, None]:
     elif choice == "Credits":
         return CREDITS
     elif choice == "Tutorial":
+        enter_game_sound()
         return TUTORIAL
     elif choice == "Leaderboard":
         return LEADERBOARD
