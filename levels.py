@@ -660,6 +660,8 @@ def title_menu_action(choice: str) -> Union[int, None]:
         return CREDITS
     elif choice == "Tutorial":
         return TUTORIAL
+    elif choice == "Leaderboard":
+        return LEADERBOARD
     else:
         return QUIT
 

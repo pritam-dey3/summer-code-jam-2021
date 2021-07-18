@@ -128,6 +128,7 @@ class Game:
                 elif command == QUIT or command == LOSE:
                     break
                 elif command == LEADERBOARD:
+                    self.current_scene.reset()
                     self.current_scene = self.leaderboard
                     continue
                 elif command == TUTORIAL:
