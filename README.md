@@ -69,7 +69,7 @@ Teams participated in the code jam had to create a TUI based on the theme "Think
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/Anand1310/summer-code-jam-2021.git
+git clone https://github.com/pritam-dey3/summer-code-jam-2021.git
 cd summer-code-jam-2021
 ```
 
